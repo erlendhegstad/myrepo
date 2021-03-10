@@ -2,6 +2,15 @@
 title: "Learning how to use Rmarkdown"
 author: "Erlend Hegstad"
 date: "10/03/2021"
-output: github_document
+output:
+  html_document:
+    df_print: paged
 ---
+
+
+#```{r}
+#table(class)
+#```
+
+
 
