@@ -1,5 +1,6 @@
 ---
-output:
-  html_document: default
-  pdf_document: default
+    title: "Something fascinating"
+    author: "Erlend Hegstad"
+    date: "2021-03-10"
+    output: github_document
 ---
