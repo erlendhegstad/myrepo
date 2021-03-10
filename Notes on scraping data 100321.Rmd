@@ -5,4 +5,9 @@ date: 10/03/2021
 output: github_document
 ---
 
-Hello world
+Now revisit the file browser. In addition to foo.Rmd, you should now see foo.md. If there are R chunks that make figures, the usage of markdown output formats will also cause those figure files to be left behind in a sensibly named sub-directory, foo_files.
+
+If you commit and push foo.md and everything inside foo_files, then anyone with permission to view your GitHub repo can see a decent-looking version of your report.
+
+If your output format is html_document, you should still see foo.html. If your output format is github_document and you see foo.html, that’s leftover from earlier experiments. Delete that. It will only confuse you later.
+
